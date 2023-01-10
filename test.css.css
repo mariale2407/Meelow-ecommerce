@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar */
+#meelow-logo{
+    width: 150px;
+    height: auto;
+    margin-right: 300px;
+}
+
+.navbar{
+    font-size: 16px;
+    margin-top: 0;
+}
+.navbar-nav .nav-link{
+    padding: 0 20px 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover, 
+.navbar  i:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-nav i.active {
+    color: #e3b9b3;
+}
+.navbar i{
+    padding: 0 10px 0 10px;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+/* END nav bar */
+
+/* MOBILE nav bar */
+
+.navbar-light .navbar-toggler{
+    border:none;
+    outline:none;
+}
+#bar{
+    font-size: 1.5rem;
+    padding:7px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color:black;
+}
+#bar:hover, 
+#bar.active {
+    color: white;  
+}
+
+@media only screen and (max-width:991px) {
+    body > nav > div > button:hover,
+    body > nav > div > button:focus {
+        background-color: white;
+    }
+}
+
+body > nav > div > button:hover #bar,
+body > nav > div > button:focus #bar{
+        background-color: white;
+    }
+
+#navbarSupportedContent > ul {
+        justify-content:flex-end;
+        align-items: flex-end;
+        text-align:right;
+
+    }
+    #navbarSupportedContent > ul > li:nth-child(n) > a {
+        padding: 10px 0;
+    }
+
+/* END MOBILE nav bar */
+
+
+
+/* 1 section NEW IN */
+
+#home{
+    background-image: url("/img/main/New.arrivals.jpeg");
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top  center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#h3-main{
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 1000px;
+    letter-spacing: 6px;
+    margin-bottom: 30px;   
+}
+p{
+    color: white;
+}
+
+#banner-btn{
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    background-color: transparent;
+    border: 1.1px solid white;
+    padding: 13px 30px;
+    cursor: pointer;
+    color: white; 
+    letter-spacing: 5px;
+    margin-top: 20px;
+   
+}
+#banner-btn:hover{
+    background-color: white;
+    color: black;
+    border:none;
+}
+/* 1 end section NEW IN */
+
+/* footer */
+
+
+
+        
+        
+
